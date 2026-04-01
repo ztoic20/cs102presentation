@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extinct Species Presentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <div class="app">
+    <div class="topbar glass">
+      <div class="brand">
+        <span class="dot"></span>
+        <span>CS102 Midterm Presentation</span>
+      </div>
+      <div class="controls">
+        <button class="nav-btn" onclick="prevSlide()">&#8592; Prev</button>
+        <div class="counter"><span id="currentSlideNum">1</span> / <span id="totalSlidesNum">8</span></div>
+        <button class="nav-btn" onclick="nextSlide()">Next &#8594;</button>
+      </div>
+    </div>
+
+    <main class="slides-wrapper">
+      <section class="slide active">
+        <div class="glass card center hero">
+          <div>
+          <!--Slide 1-->
+            <p class="eyebrow"></p>
+            <h1>Data Cleaning and Standardization of Extinct Species Dataset for Analysis</h1>
+          </div>
+        </div>
+      </section>
+
+      <!--Slide 2-->
+      <section class="slide">
+        <div class="glass card">
+          <p class="eyebrow"></p>
+          <h1>A Final Project in CS102 for Midterm</h1>
+          <p class="subtitle">Presented by: <strong>BSIT 2A</strong></p>
+          <div class="names-grid">
+            <div class="mini-glass">Tristan Jay Palabrica</div>
+            <div class="mini-glass">Rodgie Magbanua</div>
+            <div class="mini-glass">Myka Jhade Cordero</div>
+            <div class="mini-glass">John Kenneth Araojo</div>
+            <div class="mini-glass">Althea Millan Diane Anilao</div>
+            <div class="mini-glass">John Wayne Bigsat</div>
+          </div>
+        </div>
+      </section>
+<!--Slide 3-->
+      <section class="slide">
+        <div class="glass card">
+          <p class="eyebrow"></p>
+          <h1>Data Collection Method</h1>
+          <div class="content-block">
+            <p><strong>Data Collection Method:</strong> Manual web browsing from different websites, observational techniques, transactional data, surveys, and experimental data.</p>
+            <p>Each of us conducted independent research to locate credible sources of data on animal extinctions. After that, we used the IUCN Red List website as the main tool to verify whether the species exists and if it is truly an extinct species. This helped ensure that the gathered data from different sources is reliable and relevant.</p>
+          </div>
+        </div>
+      </section>
+<!--Slide 4-->
+      <section class="slide">
+        <div class="glass card">
+          <p class="eyebrow"></p>
+          <h1>Data Presentation</h1>
+          <div class="content-block">
+            <p>Using the information that each of us collected, we created a table to present data on the distribution and causes of animal extinctions per continent.</p>
+            <p>The table includes columns for the animal's common name, scientific name, date of extinction, continent, and primary reason for extinction.</p>
+          </div>
+          <div class="button-row">
+            <button class="action-btn" onclick="openAndDownload('extinct_animal.csv')">Open & Download CSV File</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Slide 5-->
+      <section class="slide">
+        <div class="glass card">
+          <p class="eyebrow"></p>
+          <h1>Collaborative Data Cleaning</h1>
+          <div class="content-block">
+            <p>After creating a table, we converted it into a CSV file and named it <strong>extinct_species.csv</strong>. We opened Jupyter and uploaded the CSV file that we created. Then we created a new Python file in Jupyter.</p>
+            <p>After that, as a team, we worked together to clean the collected data by identifying and addressing any missing or duplicate information. We also made sure that the data is standardized to allow accurate analysis and comparison.</p>
+          </div>
+          <div class="button-row">
+            <a class="action-btn" type="button" href="http://localhost:8888/lab/tree/collaborative%20data%20cleaning.ipynb" target="_blank">Open Jupyter</a>
+          </div>
+        </div>
+      </section>
+
+<!--Slide 6-->
+      <section class="slide">
+        <div class="glass card">
+          <p class="eyebrow"></p>
+          <h1>Cleaned CSV File</h1>
+          <div class="button-row">
+            <button class="action-btn" onclick="openAndDownload('extinct_animal_cleaned.csv')">Open & Download Cleaned CSV</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Slide 7-->
+      <section class="slide">
+        <div class="glass card">
+          <p class="eyebrow"></p>
+          <h1>Data Storage</h1>
+          <div class="stats-grid">
+            <div class="mini-glass stat-card">
+              <span class="stat-label">Storage Size</span>
+              <span class="stat-value">5.42 KB</span>
+            </div>
+            <div class="mini-glass stat-card">
+              <span class="stat-label">Storage Used</span>
+              <span class="stat-value">Google Drive</span>
+            </div>
+          </div>
+          <div class="content-block">
+            <p>It includes information such as common name, scientific name, date of extinction, continent, primary reason for extinction, and other relevant information gathered from different sources.</p>
+            <p>Google Drive was used because it is one of the most efficient and accessible ways to store the data, making collaboration easier for all group members.</p>
+          </div>
+        </div>
+      </section>
+
+      <!--Slide 8-->
+      <section class="slide">
+        <div class="glass card references-card">
+          <p class="eyebrow"></p>
+          <h1>References</h1>
+          <div class="references-list">
+ <p><strong>A</strong></p>
+<p>Animal Diversity Web. (2022). Lipotes vexillifer. <a href="https://animaldiversity.org/accounts/Lipotes_vexillifer/" target="_blank">https://animaldiversity.org/accounts/Lipotes_vexillifer/</a></p>
+<p>Animal Spot. (n.d.). Extinct animals. <a href="https://www.animalspot.net" target="_blank">https://www.animalspot.net</a></p>
+<p>Australian Museum. (2023). Melomys rubicola (Bramble Cay melomys). <a href="https://australian.museum/learn/australia-over-time/extinct-animals/melomys-rubicola/" target="_blank">https://australian.museum/learn/australia-over-time/extinct-animals/melomys-rubicola/</a></p>
+
+<p><strong>B</strong></p>
+<p>Encyclopaedia Britannica. (2022). Pyrenean ibex. <a href="https://www.britannica.com/animal/Pyrenean-ibex" target="_blank">https://www.britannica.com/animal/Pyrenean-ibex</a></p>
+<p>Encyclopaedia Britannica. (2024). Aurochs. <a href="https://www.britannica.com/animal/aurochs" target="_blank">https://www.britannica.com/animal/aurochs</a></p>
+<p>Encyclopaedia Britannica. (2024). Great auk. <a href="https://www.britannica.com/animal/great-auk" target="_blank">https://www.britannica.com/animal/great-auk</a></p>
+<p>Encyclopaedia Britannica. (2024). Passenger pigeon. <a href="https://www.britannica.com/animal/passenger-pigeon" target="_blank">https://www.britannica.com/animal/passenger-pigeon</a></p>
+<p>Encyclopaedia Britannica. (2024). Quagga. <a href="https://www.britannica.com/animal/quagga" target="_blank">https://www.britannica.com/animal/quagga</a></p>
+<p>Encyclopaedia Britannica. (2023). Great auk. <a href="https://www.britannica.com/animal/great-auk" target="_blank">https://www.britannica.com/animal/great-auk</a></p>
+<p>Encyclopaedia Britannica. (2023). General reference. <a href="https://www.britannica.com" target="_blank">https://www.britannica.com</a></p>
+<p>Encyclopaedia Britannica. (2026). 6 animals we ate into extinction. <a href="https://www.britannica.com/list/6-animals-we-ate-into-extinction" target="_blank">https://www.britannica.com/list/6-animals-we-ate-into-extinction</a></p>
+
+<p><strong>C</strong></p>
+<p>Collections Te Papa. (n.d.). The laughing owl's extinction. <a href="https://collections.tepapa.govt.nz/topic/1450" target="_blank">https://collections.tepapa.govt.nz/topic/1450</a></p>
+
+<p><strong>E</strong></p>
+<p>eBird. (2023). Stresemann’s bristlefront. <a href="https://ebird.org/species/stiwre1" target="_blank">https://ebird.org/species/stiwre1</a></p>
+<p>Encyclopaedia Britannica. (2024). Carolina parakeet. <a href="https://www.britannica.com/animal/Carolina-parakeet" target="_blank">https://www.britannica.com/animal/Carolina-parakeet</a></p>
+<p>Encyclopaedia Britannica. (2024). Dodo (extinct bird). <a href="https://www.britannica.com/animal/dodo-extinct-bird" target="_blank">https://www.britannica.com/animal/dodo-extinct-bird</a></p>
+<p>Encyclopaedia Britannica. (2024). Falkland Islands wolf. <a href="https://www.britannica.com/animal/Falkland-Islands-wolf" target="_blank">https://www.britannica.com/animal/Falkland-Islands-wolf</a></p>
+<p>Encyclopaedia Britannica. (2024). Great auk. <a href="https://www.britannica.com/animal/great-auk" target="_blank">https://www.britannica.com/animal/great-auk</a></p>
+<p>Encyclopaedia Britannica. (2024). Ibex. <a href="https://www.britannica.com/animal/ibex" target="_blank">https://www.britannica.com/animal/ibex</a></p>
+<p>Encyclopaedia Britannica. (2024). Sea cow. <a href="https://www.britannica.com/animal/sea-cow" target="_blank">https://www.britannica.com/animal/sea-cow</a></p>
+<p>Encyclopaedia Britannica. (n.d.). General reference. <a href="https://www.britannica.com" target="_blank">https://www.britannica.com</a></p>
+<p>EngDic. (n.d.). Extinct animals name list. <a href="https://engdic.org/extinct-animals-name" target="_blank">https://engdic.org/extinct-animals-name</a></p>
+<p>Extinct Animal Encyclopedia. (2021). Pinta Island tortoise. <a href="https://extinctanimalencyclopedia.com/pinta-island-tortoise/" target="_blank">https://extinctanimalencyclopedia.com/pinta-island-tortoise/</a></p>
+<p>ExtinctAnimals.org. (2020). Bluebuck. <a href="https://www.extinctanimals.org/bluebuck.htm" target="_blank">https://www.extinctanimals.org/bluebuck.htm</a></p>
+<p>ExtinctAnimals.org. (2020). West African black rhinoceros. <a href="https://www.extinctanimals.org/west-african-black-rhino.htm" target="_blank">https://www.extinctanimals.org/west-african-black-rhino.htm</a></p>
+<p>ExtinctAnimals.org. (n.d.). Extinct animals. <a href="https://www.extinctanimals.org" target="_blank">https://www.extinctanimals.org</a></p>
+
+<p><strong>I</strong></p>
+<p>Invasive Species Council. (2022). Christmas Island pipistrelle extinction. <a href="https://invasives.org.au/our-work/ending-extinctions/extinct-christmas-island-pipistrelle/" target="_blank">https://invasives.org.au/our-work/ending-extinctions/extinct-christmas-island-pipistrelle/</a></p>
+<p>Institute for Environmental Research & Education. (2025). What animals will go extinct because of climate change? <a href="https://iere.org/what-animals-will-go-extinct-because-of-climate-change/" target="_blank">https://iere.org/what-animals-will-go-extinct-because-of-climate-change/</a></p>
+<p>International Fund for Animal Welfare. (n.d.). Golden toads: Facts & why they went extinct. <a href="https://www.ifaw.org/animals/golden-toads" target="_blank">https://www.ifaw.org/animals/golden-toads</a></p>
+<p>IUCN. (2023). The IUCN Red List of Threatened Species. <a href="https://www.iucnredlist.org" target="_blank">https://www.iucnredlist.org</a></p>
+
+<p><strong>N</strong></p>
+<p>National Geographic. (n.d.). First mammal extinct due to climate change. <a href="https://www.nationalgeographic.com/science/article/first-mammal-extinct-climate-change-bramble-cay-melomys" target="_blank">https://www.nationalgeographic.com/science/article/first-mammal-extinct-climate-change-bramble-cay-melomys</a></p>
+<p>National Museum of Australia. (2022). Extinction of the thylacine. <a href="https://www.nma.gov.au/defining-moments/resources/extinction-of-thylacine" target="_blank">https://www.nma.gov.au/defining-moments/resources/extinction-of-thylacine</a></p>
+<p>New Zealand Birds Online. (2026). Laughing owl. <a href="https://www.nzbirdsonline.org.nz/species/laughing-owl" target="_blank">https://www.nzbirdsonline.org.nz/species/laughing-owl</a></p>
+<p>New Zealand Birds Online. (n.d.). Lyall’s wren. <a href="https://www.nzbirdsonline.org.nz/species/lyalls-wren" target="_blank">https://www.nzbirdsonline.org.nz/species/lyalls-wren</a></p>
+
+<p><strong>Q</strong></p>
+<p>Quagga Project. (2023). The Quagga Project. <a href="https://www.quaggaproject.org/" target="_blank">https://www.quaggaproject.org/</a></p>
+
+<p><strong>S</strong></p>
+<p>Smithsonian Institution. (2023). Passenger pigeon. <a href="https://www.si.edu/spotlight/passenger-pigeon" target="_blank">https://www.si.edu/spotlight/passenger-pigeon</a></p>
+<p>Smithsonian National Museum of Natural History. (n.d.). Extinction over time. <a href="https://naturalhistory.si.edu/education/teaching-resources/paleontology/extinction-over-time" target="_blank">https://naturalhistory.si.edu/education/teaching-resources/paleontology/extinction-over-time</a></p>
+<p>SANBI. (2023). South African National Biodiversity Institute. <a href="https://www.sanbi.org" target="_blank">https://www.sanbi.org</a></p>
+
+<p><strong>U</strong></p>
+<p>U.S. Fish & Wildlife Service. (2023). Species information. <a href="https://www.fws.gov" target="_blank">https://www.fws.gov</a></p>
+<p>U.S. Fish & Wildlife Service. (n.d.). Dusky seaside sparrow. <a href="https://www.fws.gov/species/dusky-seaside-sparrow-ammodramus-maritimus-nigrescens" target="_blank">https://www.fws.gov/species/dusky-seaside-sparrow-ammodramus-maritimus-nigrescens</a></p>
+
+<p><strong>W</strong></p>
+<p>Wikipedia contributors. (2026). Caribbean monk seal. <a href="https://en.wikipedia.org/wiki/Caribbean_monk_seal" target="_blank">https://en.wikipedia.org/wiki/Caribbean_monk_seal</a></p>
+<p>Wikipedia contributors. (2026). Cuban macaw. <a href="https://en.wikipedia.org/wiki/Cuban_macaw" target="_blank">https://en.wikipedia.org/wiki/Cuban_macaw</a></p>
+<p>Wikipedia contributors. (2026). De-extinction. <a href="https://en.wikipedia.org/wiki/De-extinction" target="_blank">https://en.wikipedia.org/wiki/De-extinction</a></p>
+<p>Wikipedia contributors. (2026). Dusky seaside sparrow. <a href="https://en.wikipedia.org/wiki/Dusky_seaside_sparrow" target="_blank">https://en.wikipedia.org/wiki/Dusky_seaside_sparrow</a></p>
+<p>Wikipedia contributors. (2026). Golden toad. <a href="https://en.wikipedia.org/wiki/Golden_toad" target="_blank">https://en.wikipedia.org/wiki/Golden_toad</a></p>
+<p>Wikipedia contributors. (2026). Graecoanatolica macedonica. <a href="https://en.wikipedia.org/wiki/Graecoanatolica_macedonica" target="_blank">https://en.wikipedia.org/wiki/Graecoanatolica_macedonica</a></p>
+<p>Wikipedia contributors. (2026). Japanese sea lion. <a href="https://en.wikipedia.org/wiki/Japanese_sea_lion" target="_blank">https://en.wikipedia.org/wiki/Japanese_sea_lion</a></p>
+<p>Wikipedia contributors. (2026). Labrador duck. <a href="https://en.wikipedia.org/wiki/Labrador_duck" target="_blank">https://en.wikipedia.org/wiki/Labrador_duck</a></p>
+<p>Wikipedia contributors. (2026). Mauritius blue pigeon. <a href="https://en.wikipedia.org/wiki/Mauritius_blue_pigeon" target="_blank">https://en.wikipedia.org/wiki/Mauritius_blue_pigeon</a></p>
+<p>Wikipedia contributors. (2026). Pink-headed duck. <a href="https://en.wikipedia.org/wiki/Pink-headed_duck" target="_blank">https://en.wikipedia.org/wiki/Pink-headed_duck</a></p>
+<p>Wikipedia contributors. (2026). Sea mink. <a href="https://en.wikipedia.org/wiki/Sea_mink" target="_blank">https://en.wikipedia.org/wiki/Sea_mink</a></p>
+<p>Wikipedia contributors. (2026). Stephens Island wren. <a href="https://en.wikipedia.org/wiki/Stephens_Island_wren" target="_blank">https://en.wikipedia.org/wiki/Stephens_Island_wren</a></p>
+<p>Wikipedia contributors. (2026). Western black rhinoceros. <a href="https://en.wikipedia.org/wiki/Western_black_rhinoceros" target="_blank">https://en.wikipedia.org/wiki/Western_black_rhinoceros</a></p>
+<p>Wikipedia contributors. (2026). Extinction risk from climate change. <a href="https://en.wikipedia.org/wiki/Extinction_risk_from_climate_change" target="_blank">https://en.wikipedia.org/wiki/Extinction_risk_from_climate_change</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

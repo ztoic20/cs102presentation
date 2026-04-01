@@ -1,0 +1,65 @@
+common_name,scientific_name,date_of_extinction,continent,primary_reason
+Dodo,Raphus cucullatus,1662.0,Africa,Hunting & Invasive Species
+Stellera's Sea Cow,Hydrodamalis gigas,1768.0,Asia/North America,Overhunting (For Meat)
+Great Auk,Pinguinus impennis,1844.0,Europe/North America,Overhunting (For Feathers/Meat)
+Quagga,Equus quagga quagga,1883.0,Africa,Overhunting & Competition With Livestock
+Passenger Pigeon,Ectopistes migratorius,1914.0,North America,Intensive Hunting & Habitat Loss
+Tasmanian Tiger,Thylacinus cynocephalus,1936.0,Australia/Oceania,Hunting & Habitat Destruction
+Japanese Sea Lion,Zalophus japonicus,1970.0,Asia,Overfishing & Hunting
+Golden Toad,Incilius periglenes,1989.0,North America,Climate Change & Disease
+Bramble Cay Melomys,Melomys rubicola,2016.0,Australia/Oceania,Climate Change (Rising Sea Levels)
+Western Black Rhino,Diceros bicornis longipes,2011.0,Africa,Poaching
+Falkland Islands Wolf,Dusicyon australis,1876.0,South America,Hunting By Settlers
+Carolina Parakeet,Conuropsis carolinensis,1918.0,North America,"Habitat Destruction, Hunting"
+Bluebuck,Hippotragus leucophaeus,1800.0,Africa,"Overhunting, Habitat Loss"
+Pyrenean Ibex,Capra pyrenaica pyrenaica,2000.0,Europe,"Hunting, Habitat Loss"
+Baiji (Yangtze River Dolphin),Lipotes vexillifer,2006.0,Asia,"Pollution, Habitat Degradation"
+Pinta Island Tortoise,Chelonoidis abingdonii,2012.0,South America,"Overexploitation, Invasive Species"
+Christmas Island Pipistrelle,Pipistrellus murrayi,2009.0,Oceania,"Invasive Species, Disease"
+Stephens Island Wren,Traversia lyalli,1894.0,Oceania,Introduced Predators (Cats)
+Graecoanatolica macedonica,Graecoanatolica macedonica,1992.0,Europe,Drought And Loss Of Aquatic Habitat
+Pachnodus velutinus (snail),Pachnodus velutinus,1972.0,Africa,Habitat Degradation & Drought Possibly Linked To Climate Change
+Pseudamnicola desertorum (snail),Pseudamnicola desertorum,1862.0,Europe,Loss Of Aquatic Habitat Possibly Due To Drought
+Rhachistia aldabrae (snail),Rhachistia aldabrae,1898.0,Africa,Drought Linked To Climate Change
+Acanthobrama telavivensis (fish),Acanthobrama telavivensis,2000.0,Asia,Drought & Freshwater Habitat Loss
+Tristramella magdelainae (fish),Tristramella magdelainae,1970.0,Asia,Drought & Habitat Reduction Linked To Climate Pressures
+Laysan crake,Zapornia palmeri,1923.0,Northwestern Hawaiian Islands,Ocean Warming & Acidification
+Dusky seaside sparrow,Ammodramus maritimus nigrescens,1987.0,North America,Habitat Loss Amplified By Rising Sea Levels/ Hydrological Changes From Regional Climate Change
+Atelopus ignescens (harlequin frog),Atelopus ignescens,1988.0,South America,Synergistic Chytrid & Climate Effects
+Atelopus longirostris,Atelopus longirostris,1990.0,Equador,"Chytrid, Climate Change, Habitat Loss"
+Craugastor chrysozetetes (frog),Craugastor chrysozetetes,1980.0,Central America,Habitat Modification + Chytrid Linked To Climate
+Craugastor escoces,Craugastor escoces,1990.0,Central America,Chytrid W/ Climate Association
+Javan Tiger,tiger subspecies,1940.0,Indonesia,Habitat
+Irish Elk,Megaloceros giganteus,,Europe,Climate Change
+Sare-toothed Tiger,Smilodon fatails,,Americas,"Climate Change, Prey Loss"
+Moa,Dinorithiformes,1400.0,Ocenia,Overhunting
+Aurochs,Bos primigenius,1667.0,Europe,Overhunting & Habitat Loss
+Steller’s Sea Cow,Hydrodamalis gigas,1768.0,Asia,Hunting For Meat & Oil
+Laughing Owl,Ninox albifacies,1914.0,Oceania,"Introduced Predators (Stoats, Cats) & Habitat Loss"
+Labrador Duck,Camptorhynchus labradorius,1870.0,North America,Habitat/Food Competition
+Sea Mink,Neo gale macrodon,1894.0,North America,Hunting (Fur Trade)
+Cuban Macaw,Ara tricolor,1864.0,North America,"Hunting, Habitat Loss"
+West African Black Rhino,Diceros bicornis longipes,2011.0,Africa,Poaching
+Hawaiian Crow,Corvus hawaiiensis,2002.0,Oceania,"Habitat Loss, Disease"
+Pink-headed Duck,Rhodonessa caryophyllacea,,Asia,Habitat Loss
+Broad-faced Potoroo,Potorous platyops,1875.0,Australia,Habitat Loss
+Mauritius Blue Pigeon,Alectroenas nitidissima,1830.0,Africa,"Hunting, Invasive Species"
+Honshu Wolf,Canis lupus hodophilax,1905.0,Asia,"Hunting, Disease"
+Rodrigues Solitaire,Pezophaps solitaria,1760.0,Africa,"Hunting, Introduced Predators"
+Caribbean Monk Seal,Neomonachus tropicalis,1952.0,North America,Overhunting
+Elephant Bird,Aepyornis maximus,,Africa,"Human Hunting, Habitat Destruction"
+Thylacine,Thylacinus cynocephalus,1936.0,Australia,"Hunting, Habitat Loss"
+Tecopa Pupfish,Cyprinodon nevadensis calidae,1970.0,North America,Habitat Modification
+Poʻouli,Melamprosops phaeosoma,2004.0,North America,"Habitat Loss, Invasive Species"
+Wyoming Toad,Anaxyrus baxteri,2020.0,United States,Habitat And Ecology
+Toolache Wallaby,Macropus greyi,1939.0,Australia,"Habitat,Hunting"
+Desert Rat-kangaroo,Caloprymnus campestris,1935.0,Australia,Predators
+Caspian Tiger,Panthera tigris virgata,1970.0,Asia,"Habitat Loss, Hunting"
+Baiji Dolphin,Lipotes vexillifer,2006.0,Asia,"Pollution, Shipping"
+Bubal Hartebeest,Alcelaphus buselaphus buselaphus,1923.0,Africa,Hunting
+Haast’s Eagle,Hieraaetus moorei,1400.0,Oceania,"Loss Of Prey, Human Impact"
+Steller's Sea Cow,Hydrodamalis gigas,1768.0,Asia,Over-Hunting For Meat And Hide.
+Atlas Bear,Ursus Arctos crowtherii,1870.0,Africa,Sport Hunting And Habitat Loss.
+Jamaican Rice Rat,Oryzomys antillarum,1877.0,North America,Invasive Mongoose Predation.
+Heath Hen,Tympanuchus cupido,1932.0,North America,Hunting And Habitat Loss.
+Black Rhino (West),Diceros bicornis longipes,2011.0,Africa,Intense Poaching For Horns.
